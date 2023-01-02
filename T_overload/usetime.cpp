@@ -13,7 +13,7 @@ int main(char argc, char** argv)
 	Time total;
 	Time diff;
 	Time adjusted;
-	cout << "weeding time";
+	cout << "weeding time ";
 	weeding.show();
 	cout << endl;
 

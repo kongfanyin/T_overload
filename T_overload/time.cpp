@@ -2,7 +2,7 @@
 #include"mytime.h"
 #include <iostream>
 
-Time::Time(int h, int m = 0)
+Time::Time(int h, int m)
 {
 	hours = h;
 	minute = m;
