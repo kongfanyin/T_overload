@@ -13,6 +13,7 @@ public:
 	Time operator+(const Time &t)const;
 	Time operator-(const Time &t)const;
 	Time operator*(double mult)const;
+	void show()const;
 private:
 	int hours;
 	int minute;

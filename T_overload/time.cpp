@@ -52,6 +52,10 @@ Time::Time()
 {
 	hours = minute = 0;
 }
+void Time::show()const
+{
+	std::cout << hours << " hours," << minute << "minutes.\n";
+}
 
 Time::~Time()
 {
